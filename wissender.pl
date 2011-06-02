@@ -60,7 +60,7 @@ my %opt;
 getopt('hdspcnur', \%opt);
 
 # help message
-if ($opt{h} or not keys %opt) { print <<EOF; exit }
+if ($opt{h} or not keys %opt) { print <<'EOF'; exit }
 
 WISSENDER
 
